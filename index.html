@@ -161,7 +161,7 @@
     <div id="content-es" class="lang-content active">
 
         <h1><span>🔒</span> Política de Privacidad de Lecturameter</h1>
-        <div class="last-updated">📅 Última actualización: <strong>30 de junio de 2026</strong></div>
+        <div class="last-updated">📅 Última actualización: <strong>1 de julio de 2026</strong></div>
 
         <h2>1. Información que recopilamos</h2>
         <p>
@@ -204,10 +204,26 @@
             Si tienes dudas, escribe a: <strong>lecturameter.app@gmail.com</strong>
         </p>
 
+        <!-- ===== NUEVA SECCIÓN 7 ===== -->
+        <h2>7. Legislación aplicable</h2>
+        <p>
+            Lecturameter está desarrollada y gestionada desde <strong>España</strong>.
+            Todos los datos personales que se procesan a través de la aplicación se tratan de acuerdo con el
+            <strong>Reglamento General de Protección de Datos (RGPD) de la Unión Europea</strong>
+            y con la
+            <strong>Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD)</strong>.
+        </p>
+        <p>
+            Al usar la aplicación, aceptas que tus datos sean tratados conforme a estas leyes.
+            Si tienes alguna duda sobre cómo gestionamos tu información, puedes contactarnos en
+            <strong>lecturameter.app@gmail.com</strong>.
+        </p>
+        <!-- ===== FIN NUEVA SECCIÓN 7 ===== -->
+
         <div class="footer">
             <span>© 2026 Lecturameter. Todos los derechos reservados.</span>
             <span>
-                <a href="https://github.com/tu-usuario/lecturameter-policy" target="_blank">Ver en GitHub</a>
+                <a href="https://github.com/LecturameterAPP/lecturameter-policy" target="_blank">Ver en GitHub</a>
             </span>
         </div>
 
@@ -217,7 +233,7 @@
     <div id="content-en" class="lang-content">
 
         <h1><span>🔒</span> Lecturameter Privacy Policy</h1>
-        <div class="last-updated">📅 Last updated: <strong>June 30, 2026</strong></div>
+        <div class="last-updated">📅 Last updated: <strong>July 1, 2026</strong></div>
 
         <h2>1. Information We Collect</h2>
         <p>
@@ -260,10 +276,26 @@
             If you have questions, write to: <strong>lecturameter.app@gmail.com</strong>
         </p>
 
+        <!-- ===== NEW SECTION 7 (ENGLISH) ===== -->
+        <h2>7. Applicable legislation</h2>
+        <p>
+            Lecturameter is developed and managed from <strong>Spain</strong>.
+            All personal data processed through the application is handled in accordance with the
+            <strong>General Data Protection Regulation (GDPR) of the European Union</strong>
+            and the
+            <strong>Spanish Organic Law 3/2018, of December 5, on the Protection of Personal Data and guarantee of digital rights (LOPDGDD)</strong>.
+        </p>
+        <p>
+            By using the application, you accept that your data is processed in accordance with these laws.
+            If you have any questions about how we manage your information, you can contact us at
+            <strong>lecturameter.app@gmail.com</strong>.
+        </p>
+        <!-- ===== END NEW SECTION 7 ===== -->
+
         <div class="footer">
             <span>© 2026 Lecturameter. All rights reserved.</span>
             <span>
-                <a href="https://github.com/tu-usuario/lecturameter-policy" target="_blank">View on GitHub</a>
+                <a href="https://github.com/LecturameterAPP/lecturameter-policy" target="_blank">View on GitHub</a>
             </span>
         </div>
 
@@ -273,17 +305,13 @@
 
 <script>
     function setLanguage(lang) {
-        // Ocultar ambos contenidos
         document.getElementById('content-es').classList.remove('active');
         document.getElementById('content-en').classList.remove('active');
-        // Mostrar el seleccionado
         document.getElementById('content-' + lang).classList.add('active');
 
-        // Actualizar botones
         document.getElementById('btn-es').classList.toggle('active', lang === 'es');
         document.getElementById('btn-en').classList.toggle('active', lang === 'en');
 
-        // Cambiar el atributo lang del html para accesibilidad
         document.documentElement.lang = lang === 'es' ? 'es' : 'en';
     }
 </script>
